@@ -1,0 +1,88 @@
+.victim{
+    height:50px;
+}
+.victim1{
+    height:20px;
+    background:#F5F5F5;
+}
+    .tou{
+    height: 50px;
+    background: #fdfdfd;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    z-index: 9999;
+    
+    }
+    .tou h1{
+        text-align:center;
+        font-size:18px;
+        font-weight: normal;
+        line-height:26px;
+    }
+    .tou .topbar_left{
+        height:50px;
+        line-height:50px;
+        position:absolute;
+        left:0px;
+        top:0px;
+        color:#ff5151;
+        font-size:16px;
+        background:url(../../assets/back_icon.png) 16px center no-repeat;
+        padding-left:35px;
+        background-size:19px 44px;
+
+    }
+    .tou .topbar_right{
+        height:50px;
+        line-height:50px;
+        position:absolute;
+        right:0px;
+        top:0px;
+        color:#ff5151;
+        font-size:16px;
+        padding-right:16px;
+        text-decoration: none;
+    }
+    .ipt{
+        border:1px solid #F5F5F5;
+        width:100%;
+        /*margin:10px 3% 0 3%;*/
+        border-radius:3px;
+        padding:2px;
+        font-size:12px;
+        box-sizing:border-box;
+         
+
+    }
+   
+    
+.ipt input:focus{
+    border-style:solid;
+
+	box-shadow: 0 0 2px #fa7e3e;
+    }
+
+    .ipt a{
+        min-height:35px;
+    }
+    .ipt .mint-field-core{
+        font-size:14px;
+        padding-left:10px;
+        line-height:2.4;
+    }
+    .btn{
+        background:#ff5151;
+        width:96%;
+        margin:10px 3% 0 2%;
+        height:44px;
+        border-radius:3px;
+        text-align:center;
+        line-height:44px;
+        color:#fff;
+    }
+    .mint-cell-wrapper{
+        padding:0 1px;
+    }
+    
